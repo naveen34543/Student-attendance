@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(212, 40, 212);
+}
+
+form {
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    background: rgb(71, 192, 240);
+    border-radius: 10px;
+    padding: 20px;
+    transform: tranlate(-50%,50%);
+    opacity: .9;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 2px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    
+}
+
+button {
+    font-size: large;
+    width: 50%;
+    margin: 3% auto;
+    margin-bottom: 4%;
+    background: transparent;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+}
+
+.custom-buttonone {
+    padding: 10px 54px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color:  #0364a5;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.custom-buttontwo {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color:  #0364a5;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.custom-buttonthree {
+    padding: 10px 53.5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color:  #0364a5;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.custom-buttonfour {
+    padding: 10px 23px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color:  #0364a5;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.custom-buttonfive {
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color:  #0364a5;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+.custom-buttonoff{
+    padding: 10px 65px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(238, 27, 27);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}

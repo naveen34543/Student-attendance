@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(212, 40, 212);
+}
+form{
+    width: 25rem;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    background: rgb(44, 153, 196);
+    box-shadow: 0 2px 15px 0 rgb(8, 14, 1);
+    border-radius: 10px;
+    transform: tranlate(-50%,50%);
+}
+h1{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 2px;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+h2{
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px black;
+    letter-spacing: 2px;
+    margin-bottom: 6%;
+}
+label{
+    font-size: 19px;
+    color: white;
+    margin-left: 10%;
+    text-shadow: 2px 2px 4px black;
+}
+input{
+      font-size: large;
+      color: black;
+      width: 80%;
+      margin: 5% auto;
+      margin bottom: 8%;
+      border : none;
+      outline: none;
+      background: transparent;
+      border-bottom: 1px solid white;
+      opacity: .8;
+      cursor: pointer;
+}
+input[type="submit"]{
+    width: 50%;
+    margin: 3% auto;
+    color: white;
+    font-size: 15px;
+    opacity: .7;
+    background: black;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px  rgb(29, 28, 28);
+    cursor: pointer;
+}
+.alert{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(238, 54, 54);
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
